@@ -1,0 +1,84 @@
+ul{
+    list-style: none;
+}
+#container #singUp{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #EEE;
+    padding: 5px;
+    overflow: hidden;
+}
+#container #singUp ul{
+    width: 50%;
+    height: auto;
+    margin: 30px auto;
+    background-color: #DDD;
+    padding: 10px 12px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#container #singUp ul h2{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 8px;
+}
+#container #singUp ul li{
+    width: 100%;
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 5px;
+}
+#container #singUp ul li p{
+    font-size: 14px;
+}
+#container #singUp ul li p:last-child{
+    font-size: 12px;
+    color: orangered;
+}
+#container #singUp ul li input,select,option{
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+    border: 1px solid #c4bebe;
+    padding: 1px 3px;
+}
+#container #singUp ul li input:hover{
+    box-shadow: -1.5px -1.5px 5px #41AAA8,
+                1.5px 1.5px 5px #41AAA8;
+}
+#container #singUp ul li input:focus{
+    box-shadow: -1.5px -1.5px 5px #41AAA8,
+                1.5px 1.5px 5px #41AAA8;
+}
+#container #singUp ul li select:hover{
+    box-shadow: -1.5px -1.5px 5px #41AAA8,
+                1.5px 1.5px 5px #41AAA8;
+}
+#container #singUp ul li select:focus{
+    box-shadow: -1.5px -1.5px 5px #41AAA8,
+                1.5px 1.5px 5px #41AAA8;
+}
+#container #singUp ul li input[type="submit"]{
+    width: 90px;
+    height: 32px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 18px;
+    cursor: pointer;
+    color: white;
+    background-color: seagreen;
+}
+#container #singUp ul li a{
+    float: left;
+    text-decoration: none;
+    color: 333;
+    background-color: #3332;
+    padding: 1px 18px;
+    border-radius: 4px;
+}
+#container #singUp ul li a:hover{
+    background-color: #333;
+    color: deepskyblue;
+}

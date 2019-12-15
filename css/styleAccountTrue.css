@@ -1,0 +1,39 @@
+#container #logIn{
+    width: 100%;
+    height: auto;
+    background-color: #EEE;
+    padding: 10px;
+    overflow: hidden;
+}
+#container #logIn #welcome{
+    width: 50%;
+    height: auto;
+    margin: 60px auto;
+    overflow: hidden;
+    background-color: #DDD;
+    padding: 20px 5px;
+    border-radius: 25px;
+    display: block;
+}
+#container #logIn #welcome h2,h3,p{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+}
+#container #logIn #welcome h2{
+    color: #A84851;
+    font-weight: bold;
+}
+#container #logIn #welcome h3{
+    color: black;
+}
+#container #logIn #welcome p{
+    color: #333;
+}
+#container #logIn #welcome img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50px;
+    text-align: center;
+    background-color: red;
+}

@@ -1,0 +1,256 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+#container article{
+    width: 74%;
+    height: auto;
+    float: right;
+    background-color: #eee;
+    padding: 6px;
+    overflow: hidden;
+}
+
+#container article header{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+#container article #mainBook{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    float: right;
+    padding: 6px 0;
+}
+#container article #mainBook #aside1Book{
+    width: 27.1%;
+    height: 260px;
+    float: right;
+    text-align: center;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+#container article #mainBook #aside1Book img{
+    width: 100%;
+    height: 100%;
+}
+#container article #mainBook #aside2Book{
+    width: 72.5%;
+    height: 260px;
+    float: left;
+    text-align: right;
+    padding: 20px 10px;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+#container article #mainBook #aside2Book ul li{
+    display: block;
+    margin-bottom: 2px;
+}
+#container article #mainBook #aside2Book ul li p{
+    font-family: Cairo, sans-serif;
+    font-size: 18px;
+    color: #back;
+}
+#container article #mainBook #aside2Book ul li p span{
+    font-family: Cairo, sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding-right: 3px;
+}
+#container article #mainBook #aside2Book ul li ul:last-child{
+    width: 100%;
+    float: right;
+    margin-top: 2px;
+}
+#container article #mainBook #aside2Book ul li ul:last-child li{
+    float: right;
+    padding-left: 4px;
+}
+#container article #mainBook #aside2Book ul li ul:last-child li:first-child p{
+    font-family: Cairo, sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-align: right;
+}
+#container article #mainBook #aside2Book ul li ul:last-child li img{
+    width: 30px;
+    height: 30px;
+}
+#container article #descriptionBook{
+    width: 100%;
+    height: auto;
+    float: right;
+    text-align: right;
+    padding: 4px;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+#container article #descriptionBook p{
+    font-family: Cairo, sans-serif;
+    font-size: 18px;
+    color: back;
+}
+#container article #descriptionBook span{
+    font-family: Cairo, sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding-right: 3px;
+}
+#container article #footer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+#container article #footer h2{
+    font-family: Cairo, sans-serif;
+    color: #333;
+    text-align: center;
+}
+#container article #footer #adsBook{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+#container article #footer #doalond{
+    width: 100%;
+    height: auto;
+    margin-top: 3px;
+}
+#container article #footer #doalond ul{
+    text-align: center;
+    margin-bottom: 2.5px;
+}
+#container article #footer #doalond ul li{
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 0 10px;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-left: 3px;
+}
+#container article #footer #doalond ul li a {
+    font-family: Cairo, sans-serif;
+    color: #333;
+    text-align: center;
+}
+#container article #footer #doalond ul li:hover{
+    background-color: #b5525c;
+    color: white;
+}
+#container article #footer #doalond ul li a:hover{
+    color: white;
+}
+#container article #commentaire{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #333;
+    margin-top: 70px;
+    float: right;
+    padding: 4px;
+}
+#container article #commentaire h3{
+    font-family: Cairo, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 3px;
+}
+#container article #commentaire ul{
+    width: 100%;
+    height: auto;
+    float: right;
+    text-align: right;
+}
+#container article #commentaire ul li{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #DDD;
+    overflow: hidden;
+    display: block;
+    padding: 4px;
+    margin-bottom: 8px;
+}
+#container article #commentaire ul li #logoCom{
+    width: 10%;
+    float: right;
+    overflow: hidden;
+}
+#container article #commentaire ul li #logoCom img{
+    width: 100%;
+    height: 80px;
+    margin-top: 13px;
+    text-align: center;
+}
+#container article #commentaire ul li #UserDesc{
+    width: 89%;
+    height: auto;
+    float: left;
+    
+}
+#container article #commentaire ul li #UserDesc p:first-child{  
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 3px;
+}
+#container article #commentaire ul li #UserDesc p{
+    width: 100%;
+    font-family: Cairo, sans-serif;
+    color: black;
+    text-align: right;
+    font-size: 14px;
+}
+#container article #commentaire #txtCom{
+    width: 100%;
+    height: auto;
+    float: right;
+    padding: 0 4px;
+    margin-top: 12px;
+}
+#container article #commentaire #txtCom p{
+    width: 100%;
+    font-family: Cairo, sans-serif;
+    color: black;
+    text-align: right;
+    font-size: 14px;
+}
+#container article #commentaire #txtCom .error{
+    width: 100%;
+    font-family: Cairo, sans-serif;
+    color: orangered;
+    text-align: right;
+    font-size: 13px;
+}
+#container article #commentaire #txtCom input[type="text"]{
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    margin-bottom: 2px;
+}
+#container article #commentaire #txtCom input[type="submit"]{
+    width: 90px;
+    height: 30px;
+    margin-top: 2px;
+    text-align: center;
+    float: right;
+    font-family: Cairo, sans-serif;
+    color: black;
+    font-size: 13px;
+}
+#container article #commentaire #txtCom textarea{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    text-align: right;
+    font-family: Cairo, sans-serif;
+    color: black;
+    font-size: 14px;
+}
